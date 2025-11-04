@@ -111,9 +111,16 @@
     font-weight: 700;
 }
 
+.ri-arrow-up-s-line{
+    display: none;
+}
+
 .sol:hover{
     .ri-arrow-down-s-line{
         opacity: 0;
+    }
+    .ri-arrow-up-s-line{
+        display: flex;
     }
 
 }
