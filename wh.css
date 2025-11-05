@@ -120,10 +120,11 @@
 .ri-arrow-up-s-line{
     display: none;
     position: absolute;
-    
+    transition-duration: 0.5S;
 }
 .ri-arrow-down-s-line{
     position: absolute;
+    transition-duration: 0.5S;
 }
 
 .sol:hover{
@@ -178,4 +179,18 @@
     font-weight: 600;
     user-select: none;
     cursor: pointer;
+}
+.a2cont{
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-left: 0.2vw;
+}
+.capabilities:hover{
+        .ri-arrow-down-s-line{
+        opacity: 0;
+    }
+    .ri-arrow-up-s-line{
+        display: flex;
+    }
 }
