@@ -330,3 +330,234 @@
 .sol2:hover::after {
     transform: scaleX(1);
 }
+.sol3{
+        position: relative;
+    display: inline-block;
+    padding-bottom: 4px; /* spacing for underline */
+    color: #bbb6b6;
+    user-select: none;
+    cursor: pointer;
+    height: 3vh;
+    z-index: 2;
+}
+.sol3:hover{
+    color: white;
+}
+.sol3::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 47%;        
+    height: 1vh;       
+
+    background: linear-gradient(90deg,#2860e1
+    );
+
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s ease;
+     z-index: -1;
+}
+.sol3:hover::after{
+    transform: scaleX(1);
+}
+.sol4{
+    position: relative;
+    display: inline-block;
+    padding-bottom: 4px; /* spacing for underline */
+    color: #bbb6b6;
+    user-select: none;
+    cursor: pointer;
+    height: 3vh;
+    z-index: 2;
+}
+.sol4:hover{
+    color: white;
+}
+.sol4::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 42%;        
+    height: 1vh;       
+
+    background: linear-gradient(90deg,#2860e1
+    );
+
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s ease;
+    z-index: -1;
+}
+.sol4:hover::after{
+    transform: scaleX(1);
+}
+.sol5{
+    position: relative;
+    display: inline-block;
+    padding-bottom: 4px; /* spacing for underline */
+    color: #bbb6b6;
+    user-select: none;
+    cursor: pointer;
+    height: 3vh;
+    z-index: 2;
+}
+.sol5:hover{
+    color: white;
+}
+.sol5::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 73%;        
+    height: 1vh;       
+
+    background: linear-gradient(90deg,#2860e1
+    );
+
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s ease;
+    z-index: -1;
+}
+.sol5:hover::after{
+    transform: scaleX(1);
+}
+.sol6{
+    position: relative;
+    display: inline-block;
+    padding-bottom: 4px; /* spacing for underline */
+    color: #bbb6b6;
+    user-select: none;
+    cursor: pointer;
+    height: 3vh;
+    z-index: 2;
+}
+.sol6:hover{
+    color: white;
+}
+.sol6::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 73%;        
+    height: 1vh;       
+
+    background: linear-gradient(90deg,#2860e1
+    );
+
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s ease;
+    z-index: -1;
+}
+.sol6:hover::after{
+    transform: scaleX(1);
+}
+.sol7{
+    position: relative;
+    display: inline-block;
+    padding-bottom: 4px; /* spacing for underline */
+    color: #bbb6b6;
+    user-select: none;
+    cursor: pointer;
+    height: 3vh;
+    z-index: 2;
+}
+.sol7:hover{
+    color: white;
+}
+.sol7::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 62%;        
+    height: 1vh;       
+
+    background: linear-gradient(90deg,#2860e1
+    );
+
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s ease;
+    z-index: -1;
+}
+.sol7:hover::after{
+    transform: scaleX(1);
+}
+.sol8{
+    position: relative;
+    display: inline-block;
+    padding-bottom: 4px; /* spacing for underline */
+    color: #bbb6b6;
+    user-select: none;
+    cursor: pointer;
+    height: 3vh;
+    z-index: 2;
+}
+.sol8:hover{
+    color: white;
+}
+.sol8::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 45%;        
+    height: 1vh;       
+
+    background: linear-gradient(90deg,#2860e1
+    );
+
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s ease;
+    z-index: -1;
+}
+.sol8:hover::after{
+    transform: scaleX(1);
+}
+.sol9{
+    position: relative;
+    display: inline-block;
+    padding-bottom: 4px; /* spacing for underline */
+    color: #bbb6b6;
+    user-select: none;
+    cursor: pointer;
+    height: 3vh;
+    z-index: 2;
+}
+.sol9:hover{
+    color: white;
+}
+.sol9::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 40%;        
+    height: 1vh;       
+
+    background: linear-gradient(90deg,#2860e1
+    );
+
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s ease;
+    z-index: -1;
+}
+.sol9:hover::after{
+    transform: scaleX(1);
+}
